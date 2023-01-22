@@ -2,13 +2,15 @@
 name = "editor"
 version = "0.1.0"
 edition = "2021"
+keywords = ["text editor", "note taking", "rich text editor", "exec command", "slatejs", "platejs"]
+categories = ["text-editors", "note-taking", "text-processing", "text-formatting"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 stylist = { version = "0.10.0", features = ["yew"] }
 table-extract = "0.2.2"
-yew = {version = "0.20.0", features = ["csr"]}
+yew = { version = "0.20.0", features = ["csr"] }
 
 
 wasm-bindgen = "0.2"
