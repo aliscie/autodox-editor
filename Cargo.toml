@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 keywords = ["text editor", "note taking", "rich text editor", "exec command", "slatejs", "platejs"]
 categories = ["text-editors", "note-taking", "text-processing", "text-formatting"]
+description = "A rich text editor for the web"
+license = "MIT"
+documentation = "https://github.com/aliscie/autodox-editor"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

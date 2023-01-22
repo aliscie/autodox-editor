@@ -19,6 +19,7 @@ pub struct EditorElementCreate {
 }
 
 
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct EditorElementUpdate {
     pub id: Id,
     pub text: Option<String>,
